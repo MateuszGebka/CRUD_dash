@@ -1,0 +1,24 @@
+.app-root {
+  width: 100%;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.creation-column {
+  width: 45%;
+}
+
+.list-column {
+  width: 50%;
+}

@@ -1,0 +1,7 @@
+.campaignList {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px;
+}

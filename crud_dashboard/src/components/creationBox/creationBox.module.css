@@ -1,0 +1,18 @@
+.card_creation_box {
+  display: flex;
+  justify-content: center;
+}
+
+.creation_form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.keyword_suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 250px;
+  margin: 15px 0px;
+  gap: 5px;
+}
