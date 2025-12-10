@@ -2,18 +2,7 @@ import { useEffect, useState } from "react"
 import "./App.css"
 import CreationBox from "./components/creationBox/creationBox"
 import CampaignList from "./components/campaignList/campaignList"
-
-type Campaign = {
-  id: string
-  name: string
-  keywords: string[]
-  bid: number
-  fund: number
-  status: "on" | "off"
-  town: string
-  radiusKm: number
-  createdAt: string
-}
+import type { Campaign } from "./components/types"
 
 const STORAGE_KEY = "crud_campaigns_v1"
 const STORAGE_BALANCE = "crud_balance_v1"
